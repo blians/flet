@@ -33,7 +33,7 @@ function result() {
     });
   });
   var result_html = `
-    <div class="container">
+    <div class="container" style="padding-bottom: 100px">
       <div class="tab-container2">
         <button class="tab-button2 active" onclick="result_filter(['br','cs','lone','cs2','ludu','free']),this.classList.add('active')">All</button>
         <button class="tab-button2" onclick="result_filter(['br']),this.classList.add('active')">BR</button>

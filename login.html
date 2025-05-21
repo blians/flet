@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Esport BD Login</title>
     <link href="res/bootstrap.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="#" rel="stylesheet" />
     <style>
         body {
@@ -132,7 +133,7 @@
                     document.getElementById(responseElementId).style.color = "green";
                     document.getElementById(responseElementId).innerText = "Success";
                     localStorage.setItem("token",responseData.token);
-                    window.location.href = "Esport.html"
+                    window.location.href = "index.html"
                 } else {
                     document.getElementById(responseElementId).style.color = "red";
                     document.getElementById(responseElementId).innerText = cat;

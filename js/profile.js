@@ -2,7 +2,7 @@ var main = document.getElementById("main");
 const webAppUrl =
   "https://script.google.com/macros/s/AKfycbyTKRcSqiwsmUsM5c791LNhNAdWLKTLhJBsMY32MF1cEWwKGxnrhn6SmIyXKC5rAHHtJA/exec";
 function profile() {
-  var profile_html = `    <div class="container">
+  var profile_html = `    <div class="container" style="padding-bottom: 100px">
       <div class="profile-container4">
           <div class="profile-image4">
               <i class="bi bi-person-circle"></i>
