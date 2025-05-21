@@ -163,7 +163,7 @@ function home_f() {
 
   // Marque
 
-  fetch("json/home.json")
+  fetch("json/main.json")
     .then((res) => {
       if (!res.ok) {
         throw new Error("Network Error");
